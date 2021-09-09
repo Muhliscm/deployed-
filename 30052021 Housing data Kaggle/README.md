@@ -22,8 +22,8 @@ Final result:
 
 Random Forest has selected for future devolepment
 
-base model has an accuracy of 87.3 %
-tuned model imporved accuracy to 88.3 %
+<br>base model has an accuracy of 87.3 %
+<br> tuned model imporved accuracy to 88.3 %
 
 Improvement of 1.13%. after boosting
 
