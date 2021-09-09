@@ -1,2 +1,3 @@
 # deployed-
-This repository contain deployed data science projects
+This repository contain end to end ds projects
+1. House price prediction kaggle
