@@ -32,7 +32,7 @@ The purpose of this project is to find the states and region where sales of prod
 
 ## Project Description
 This project is intented to create a analysis dashboard to find the regions where sales of computer hardwares dicreased. The data collected from data science community as sql
-dump file. This data is collected from data science community. The compony name is Atliq hardware who are distributor of hardware component in India
+dump file. This data is collected from data science community. The compony name is Atliq hardware who are distributor of hardware components in India
 
 
 ## Getting Started
