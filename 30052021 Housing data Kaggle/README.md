@@ -58,6 +58,7 @@ The purpose of this project is predicting the price of real estate properties us
    * [Elastic net](https://github.com/Muhliscm/dsProjects/blob/main/30052021%20Housing%20data%20Kaggle/8.%20Pipline/model%20building%20and%20deployment/20210904-Elastic%20net.ipynb)
    
 
+# Model Selection and Conclusion
 
 Random Forest has selected for future devolepment basis on the accuracy
 
