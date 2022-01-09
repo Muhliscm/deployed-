@@ -12,4 +12,4 @@ Tools used: Power BI
 Devoleped this dashboard for Power BI learning series
 
 
-<img src="Capture.png" alt="dashboard" height="1000" width="1200">
+<img src="Capture.PNG" alt="dashboard" height="1000" width="1200">
