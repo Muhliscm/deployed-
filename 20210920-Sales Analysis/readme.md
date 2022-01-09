@@ -14,4 +14,4 @@ Implemented this project as part of Business intelligence Learning Series
 6. Created calculated columns and KPIs
 7. Final Dashboard report created
 
-<img src="Capture.png" alt="img" height="1000" width="1200">
+<img src="Capture.PNG" alt="img" height="1000" width="1200">
