@@ -2,6 +2,7 @@
 # Hardware Sales Analysis
 
 ![Data Science](https://img.shields.io/badge/%20-%20Data%20Science-blueviolet?style=for-the-badge)
+![Data Analysis](https://img.shields.io/badge/%20-Data%20Analysis-9cf?style=flat-square&logo=appveyor)
 ![Business Intelligence](https://img.shields.io/badge/Business-Intelligence-violet)
 ![PowerBI](https://img.shields.io/badge/PowerBI-MS-yellow)
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
