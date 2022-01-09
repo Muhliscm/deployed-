@@ -36,7 +36,7 @@ The purpose of this project is to find the states and region where sales of prod
 
 ## Getting Started
 
-1. Raw Data is being kept [here](https://github.com/Muhliscm/dsProjects/tree/main/20210909-Sample%20superstore/data) within this repo.
+1. Raw Data is being kept [here](https://github.com/Muhliscm/dsProjects/tree/main/20210920-Sales%20Analysis/data) within this repo.
 
 .
 ## Featured Notebooks/Analysis/Deliverables
