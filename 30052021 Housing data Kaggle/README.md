@@ -36,14 +36,11 @@ The purpose of this project is predicting the price of real estate properties us
 ## Getting Started
 
 1. Raw Data is being kept [click Here](https://github.com/Muhliscm/dsProjects/tree/main/30052021%20Housing%20data%20Kaggle/2.Prepared%20Data/house-prices-advanced-regression-techniques) within this repo.
+2. Explonatory Data Analysis scripts are being kept [here](https://github.com/Muhliscm/dsProjects/blob/main/30052021%20Housing%20data%20Kaggle/8.%20Pipline/eda/20210817%20Eda-House_price_prediction_kaggle.ipynb)
+3. Data preprocessing/transformation scripts are being kept [here](https://github.com/Muhliscm/dsProjects/blob/main/30052021%20Housing%20data%20Kaggle/8.%20Pipline/future%20engineering/20210818%20FE-House_price_prediction_kaggle.ipynb)
+4. Future Selection scripts are being kept [here] (https://github.com/Muhliscm/dsProjects/blob/main/30052021%20Housing%20data%20Kaggle/8.%20Pipline/future%20selection/20210818%20FS-House_price_prediction_kaggle.ipynb)
+5. etc...
 
-    
-3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-4. etc...
-
-*If your project is well underway and setup is fairly complicated (ie. requires installation of many packages) create another "setup.md" file and link to it here*  
-
-5. Follow setup [instructions](Link to file)
 
 ## Featured Notebooks/Analysis/Deliverables
 * [Notebook/Markdown/Slide Deck Title](link)
