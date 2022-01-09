@@ -17,7 +17,7 @@ The purpose of this project is to find the states and region where sales of prod
 
 
 ### Methods Used
-* Data collected as sql dump file
+* Data collected as sql dump file from data science community 
 * Uploaded to MySQL database
 * First step analysis is done using MySQL
 * ETL implemented using Power BI
@@ -31,7 +31,8 @@ The purpose of this project is to find the states and region where sales of prod
 
 
 ## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
+This project is intented to create a analysis dashboard to find the regions where sales of computer hardwares dicreased. The data collected from data science community as sql
+dump file. This data is collected from data science community. The compony name is Atliq hardware who are distributor of hardware component in India
 
 
 ## Getting Started
