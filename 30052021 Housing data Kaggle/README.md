@@ -60,7 +60,7 @@ The purpose of this project is predicting the price of real estate properties us
 Random Forest has selected for future devolepment basis of the accuracy
 
 <br>base model has an accuracy of 87.3 %
-<br> tuned model using RandomizedSearchCV and imporved accuracy to 88.3 %
+<br> tuned model using RandomizedSearchCV and improved accuracy to 88.3 %
 
 Improvement of 1.13%. after boosting
 
