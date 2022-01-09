@@ -1,17 +1,50 @@
-#Hardware Sales Analysis
 
-Goal: To find the states and region where sales of product dicreased
+# Hardware Sales Analysis
 
-Tools Used: MySQL, PowerBI
+![Data Science](https://img.shields.io/badge/%20-%20Data%20Science-blueviolet?style=for-the-badge)
+![Business Intelligence](https://img.shields.io/badge/Business-Intelligence-violet)
+![PowerBI](https://img.shields.io/badge/PowerBI-MS-yellow)
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
-Implemented this project as part of Business intelligence Learning Series
+This project is a part of the personal Business Intelligence Projects
 
-1. Data collected as sql dump file
-2. Uploaded to MySQL database
-3. First step analysis is done using MySQL
-4. ETL implemented using Power BI
-5. Second phase analysis is done using Power BI
-6. Created calculated columns and KPIs
-7. Final Dashboard report created
+#### -- Project Status: [Completed]
+
+## Project Intro/Objective
+The purpose of this project is to find the states and region where sales of product dicreased
+
+
+### Methods Used
+* Data collected as sql dump file
+* Uploaded to MySQL database
+* First step analysis is done using MySQL
+* ETL implemented using Power BI
+* Second phase analysis is done using Power BI
+* Created calculated columns and KPIs
+* Final dashboard report created using Power BI
+
+### Technologies
+* Power Bi 
+* MySQL
+
+
+## Project Description
+(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
+
+
+## Getting Started
+
+1. Raw Data is being kept [here](https://github.com/Muhliscm/dsProjects/tree/main/20210909-Sample%20superstore/data) within this repo.
+
+.
+## Featured Notebooks/Analysis/Deliverables
+* [Power BI File](https://github.com/Muhliscm/dsProjects/blob/main/20210920-Sales%20Analysis/sales%20insights.pbix)
+* [Final Report Pdf](https://github.com/Muhliscm/dsProjects/blob/main/20210920-Sales%20Analysis/sales%20insights.pdf)
+
+
+
+
 
 <img src="Capture.PNG" alt="img" height="1000" width="1200">
