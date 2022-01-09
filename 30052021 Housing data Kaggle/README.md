@@ -1,5 +1,5 @@
 # Real Estate Price Prediction
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Freal-estate&psig=AOvVaw2mSJTwBpkGhgjde5BpusoO&ust=1641809461141000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPi7pYC3pPUCFQAAAAAdAAAAABAD" height="600" width="720">
+<img src=https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Freal-estate&psig=AOvVaw2mSJTwBpkGhgjde5BpusoO&ust=1641809461141000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPi7pYC3pPUCFQAAAAAdAAAAABAD height="600" width="720">
 
 This project is a part of the [Data Science Working Group](http://datascience.codeforsanfrancisco.org) at [Code for San Francisco](http://www.codeforsanfrancisco.org).  Other DSWG projects can be found at the [main GitHub repo](https://github.com/sfbrigade/data-science-wg).
 
