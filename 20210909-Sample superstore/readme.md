@@ -11,7 +11,7 @@ This project is a part of the personal Business Intelligence Projects
 #### -- Project Status: [Completed]
 
 ## Project Intro/Objective
-The purpose of this project is to create a power report for sales analysis of store 
+The purpose of this project is to create a power bi report for sales analysis of store 
 
 
 ### Methods Used
