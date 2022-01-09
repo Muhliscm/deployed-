@@ -1,3 +1,5 @@
+Data science end to end to projects
 
-This repository contain ds end to end projects
-1. House price prediction kaggle Challenge
+1. Sample super store dashboard
+2. Hardware sales analysis
+3. Real estate price prediction
