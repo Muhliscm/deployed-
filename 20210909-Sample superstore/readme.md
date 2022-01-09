@@ -11,7 +11,7 @@ This project is a part of the personal Business Intelligence Projects
 #### -- Project Status: [Completed]
 
 ## Project Intro/Objective
-The purpose of this project is ________. (Create A dashboard for sales analysis of a store)
+The purpose of this project is to create a power report for sales analysis of store 
 
 
 ### Methods Used
@@ -26,7 +26,7 @@ The purpose of this project is ________. (Create A dashboard for sales analysis 
 
 
 ## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
+Data collected from data science community. This dataset is of a imaginary store from USA who sells different product. Profits in each catogory, region , sub category, total profit, profit by segment, total quantity sold and total sales are visualized.
 
 
 ## Getting Started
