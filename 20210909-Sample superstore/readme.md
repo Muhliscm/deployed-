@@ -1,4 +1,11 @@
 # Sample Super Store Dashboard
+
+![Data Science](https://img.shields.io/badge/%20-%20Data%20Science-blueviolet?style=for-the-badge)
+![Business Intelligence](https://img.shields.io/badge/Business-Intelligence-violet)
+![PowerBI](https://img.shields.io/badge/PowerBI-MS-yellow)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+
 This project is a part of the personal Business Intelligence Projects
 
 #### -- Project Status: [Completed]
@@ -24,23 +31,14 @@ The purpose of this project is ________. (Create A dashboard for sales analysis 
 
 ## Getting Started
 
-1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
+1. Raw Data is being kept [here](https://github.com/Muhliscm/dsProjects/tree/main/20210909-Sample%20superstore/data) within this repo.
 
-    *If using offline data mention that and how they may obtain the data from the froup)*
-    
-3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-4. etc...
-
-*If your project is well underway and setup is fairly complicated (ie. requires installation of many packages) create another "setup.md" file and link to it here*  
-
-5. Follow setup [instructions](Link to file)
-
+.
 ## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide Deck Title](link)
-* [Notebook/Markdown/Slide DeckTitle](link)
-* [Blog Post](link)
+* [Power BI File](https://github.com/Muhliscm/dsProjects/blob/main/20210909-Sample%20superstore/Sample%20Super%20Store.pbix)
+* [Final Report Pdf](https://github.com/Muhliscm/dsProjects/blob/main/20210909-Sample%20superstore/Sample%20Super%20Store-%20report.pdf)
 
 
 
-<img src="Capture.PNG" alt="dashboard" height="1000" width="1200">
+<img src="Capture.PNG" alt="dashboard" height="1000" width="1500">
+
