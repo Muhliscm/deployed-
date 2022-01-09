@@ -8,6 +8,8 @@ This project is a part of the [Kaggle](https://www.kaggle.com/) [Advanced Regres
 ## Project Intro/Objective
 The purpose of this project is predicting the price of real estate properties using machine learning regression
 
+![Data Science](https://img.shields.io/badge/%20-%20Data%20Science-blueviolet?style=for-the-badge)
+![Machine Learning](https://img.shields.io/badge/%20-Machine%20Learning-important?style=for-the-badge)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
