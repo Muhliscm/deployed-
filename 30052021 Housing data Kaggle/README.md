@@ -35,7 +35,7 @@ The purpose of this project is predicting the price of real estate properties us
 
 ## Getting Started
 
-1. Raw Data is being kept [2.Prepared Data/house-prices-advanced-regression-techniques](Repo folder containing raw data) within this repo.
+1. Raw Data is being kept [Raw](2.Prepared Data/house-prices-advanced-regression-techniques) within this repo.
 
     
 3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
