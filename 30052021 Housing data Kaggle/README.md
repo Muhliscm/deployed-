@@ -41,8 +41,7 @@ The purpose of this project is predicting the price of real estate properties us
 * etc. 
 
 ## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
-
+Data collected form kaggle advanced regression prediction challenge. Data visulized using univariate analysis, bivariate analysis, multivariates analysis.Data with different data type visualized accoridingly. Data preprocessing steps includes imputing missing values, log transformation of skewed data. future selection is done using correlation coefficient with a threshold of 0.8 and different regression models appied.
 
 ## Getting Started
 
