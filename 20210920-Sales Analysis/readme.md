@@ -49,4 +49,4 @@ dump file. This data is collected from data science community. The compony name 
 
 
 
-<img src="Capture.PNG" alt="img" height="1000" width="1200">
+<img src="./Capture.PNG" alt="img" height="1000" width="1200">
