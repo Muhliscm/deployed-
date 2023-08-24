@@ -1,17 +1,10 @@
 
-<p align="center"> 
 
-<img src="https://t3.ftcdn.net/jpg/00/99/47/54/360_F_99475491_0cRIhy4v3DheDHoRLbWcfGZ9qFcWmv1d.jpg" height="150px">
 
-</p>
-
-<h1 align="center"> Bike Sharing Demand Prediction
- </h1>
-
-<h3 align="center"> AlmaBetter Verified Project - <a href="https://www.almabetter.com/"> AlmaBetter School </a> </h5>
+<h1 align="center"> Telecom Churn Prediction</h1>
 
 <p align="center"> 
-<img src="https://sophiesu.net/wp-content/uploads/2021/01/Bike-Sharing-Demand-1194x501.jpg" height="400px">
+<img src="images/Customer-exit.png" height="600px" width="900px">
 </p>
 
 <p> </p>
