@@ -1,5 +1,5 @@
 # Telecome Churn Prediction
-<img src="realEstate.jpg" height="600" width="720">
+<img src="/images/Customer-exit.png" height="600" width="720">
 
 This project is a part of the [Kaggle](https://www.kaggle.com/) [Advanced Regression Challenge](https://www.kaggle.com/c/house-prices-advanced-regression-techniques).
 
