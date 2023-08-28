@@ -46,7 +46,7 @@ Currently Rental bikes are introduced in many urban cities for the enhancement o
 
 <h2> 🎯 Objectives: </h2>
 
-1. Prediction of bike count required at each hour for the stable supply of rental bikes in bike sharing system.
+1. Prediction of the user who has a chance to churn
 
 2. Gathering information regarding the factors that affect this prediction the most.
 
@@ -54,31 +54,31 @@ Currently Rental bikes are introduced in many urban cities for the enhancement o
 
 <h2> :book: Data Summary </h2>
 
-The data set was taken from Seoul, the Capital of South Korea and contained 8760 bike-rented details. It also consisted of features such as temperature, visibility, humidity, holiday, functioning day, rainfall, snowfall etc based on which we are trying to predict the rental bike count. The observations in the dataset were recorded during a span of 365 days, from December 2017 to November 2018.
+The data contained 7043 user details who used the service and some of them quit the service due to some issues.
 
-The Seoul Bike  Dataset contains the following information:
+The dataset contains the following information:
 
 * **customerID**
 * **gender** - Male/Female
-* **SeniorCitizen** - Is Senior Citizer Or Not
+* **SeniorCitizen** - Is Senior Citizen Or Not
 * **Partner** - Have partner or Not
 * **Dependents** - Have Dependents or Not
-* **tenure** - Ten
-* **PhoneService**
-* **MultipleLines**
-* **InternetService**
-* **OnlineSecurity**
-* **OnlineBackup**
-* **DeviceProtection**
-* **TechSupport**
-* **StreamingTV**
-* 	**StreamingMovies**
-* 	**Contract**
-* 	**PaperlessBilling**
-* 	**PaymentMethod**
-* 	**MonthlyCharges**
-* 	**TotalCharges**
-* 	**Churn**
+* **tenure** - Tenure in months
+* **PhoneService** - Have phone service or not
+* **MultipleLines** - Do they have multiple lines or no phone at all
+* **InternetService** - Internet service type like optic fiber..etc
+* **OnlineSecurity** - Have online Security or Not
+* **OnlineBackup** - Have an online backup or not
+* **DeviceProtection** - Have device protection or not
+* **TechSupport** - Do they get support from the company side
+* **StreamingTV** - Use Streaming Tv
+* 	**StreamingMovies** - Do they watch movies online
+* 	**Contract** - package type - Monthly/yearly
+* 	**PaperlessBilling** - Online or offline payment
+* 	**PaymentMethod** - What kind of payment service they use
+* 	**MonthlyCharges** - Subscribed monthly package amount
+* 	**TotalCharges** - Total Amount spent by customer till this date
+* 	**Churn** - Customer churned or Not (Target variable)
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
