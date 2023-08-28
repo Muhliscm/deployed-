@@ -58,20 +58,27 @@ The data set was taken from Seoul, the Capital of South Korea and contained 8760
 
 The Seoul Bike  Dataset contains the following information:
 
-* **Date** - The date of each observation in the format 'year-month-day'
-* **Hour** - Hour of the day
-* **Temperature** - Temperature recorded in the city in Celsius (°C).
-* **Humidity** - Relative humidity in %
-* **Wind speed** - Speed of the wind in m/s
-* **Visibility** - measure of distance at which object or light can be clearly discerned in units of 10m
-* **Dew point temperature** - Temperature recorded in the beginning of the day in Celsius(°C).
-* **Solar radiation** - Intensity of sunlight in MJ/m^2
-* **Rainfall** - Amount of rainfall received in mm
-* **Snowfall** - Amount of snowfall received in cm
-* **Seasons** - Season of the year (Winter, Spring, Summer, Autumn)
-* **Holiday** - Whether the day is a Holiday or not (Holiday/No holiday)
-* **Functional Day** -Whether the rental service is available (Yes-Functional hours) or not (No-Non functional hours)
-* **Rented Bike count** - Count of bikes rented at each hour (target variable)
+* **customerID**
+* **gender** - Male/Female
+* **SeniorCitizen** - Is Senior Citizer Or Not
+* **Partner** - Have partner or Not
+* **Dependents** - Have Dependents or Not
+* **tenure** - Ten
+* **PhoneService**
+* **MultipleLines**
+* **InternetService**
+* **OnlineSecurity**
+* **OnlineBackup**
+* **DeviceProtection**
+* **TechSupport**
+* **StreamingTV**
+* 	**StreamingMovies**
+* 	**Contract**
+* 	**PaperlessBilling**
+* 	**PaymentMethod**
+* 	**MonthlyCharges**
+* 	**TotalCharges**
+* 	**Churn**
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
