@@ -29,9 +29,7 @@
 
 <h2> 📄 Introduction</h2>
 
-A bicycle-sharing system, bike share program, public bicycle scheme, or public bike share (PBS) scheme, is a shared transport service in which bicycles are made available for shared use to individuals on a short term basis for a price or free.
-
-Predicting bike sharing demand can help bike sharing companies to allocate bikes better and ensure a more sufficient circulation of bikes for customers.
+Customer churn prediction is the process of identifying which customers are likely to leave a service or cancel a subscription based on their usage of the service. It is crucial for many businesses because acquiring new clients is often more expensive than retaining existing ones. To predict churn effectively, companies need to synthesize and utilize key indicators defined by their team to signal when a customer has a probability of churning so that their company can take action.
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -39,14 +37,14 @@ Predicting bike sharing demand can help bike sharing companies to allocate bikes
 
 <h2> ❓ Problem Statement</h2>
 
-Currently Rental bikes are introduced in many urban cities for the enhancement of mobility comfort. It is important to make the rental bike available and accessible to the public at the right time as it lessens the waiting time. Eventually, providing the city with a stable supply of rental bikes becomes a major concern. The crucial part is the prediction of bike count required at each hour for the stable supply of rental bikes.
+In This problem, we trying to solve churning in the telecom industry. Telecom companies face an average annual churn rate of 10-15%, which is significantly high due to the cost of acquiring new customers. To retain highly profitable customers, we use machine learning models to predict churn on an individual customer  basis and take countermeasures such as discounts, special offers, or other gratifications to keep the customers.
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <h2> 🎯 Objectives: </h2>
 
-1. Prediction of the user who has a chance to churn
+1. Building a predictive model to find and retain customers at the highest risk of churn
 
 2. Gathering information regarding the factors that affect this prediction the most.
 
@@ -85,11 +83,11 @@ The dataset contains the following information:
 
 <h2> 📑 Steps involved </h2>
 
-1. Exploring the data: Analyzing the features and target variable, checking for null values and duplicates, plotting the distribution of target variable etc.
+1. Exploring the data: Analyzing the features and target variable, checking for null values and duplicates, plotting the distribution of target variable, etc.
 
-2. Treating numerical and categorical features separately, VIF Analysis, Encoding, Outlier detection etc.
+2. Treating numerical and categorical features separately, Encoding etc.
 
-3. Train test split, Transformation, Scaling etc.
+3. Train test split, Transformation, Scaling, etc.
 
 4. Develop different models and evaluate them.
 
