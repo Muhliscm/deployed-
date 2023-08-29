@@ -85,7 +85,7 @@ The dataset contains the following information:
 
 1. Exploring the data: Analyzing the features and target variable, checking for null values and duplicates, plotting the distribution of target variable, etc.
 
-2. Treating numerical and categorical features separately, Encoding etc.
+2. Treating numerical and categorical features separately, Encoding, etc.
 
 3. Train test split, Transformation, Scaling, etc.
 
@@ -95,7 +95,7 @@ The dataset contains the following information:
 
 <h2>🛠️ Pre-processing </h2>
 
-In this project, the dependent variable is ‘Rented bike count’, the prediction of which gives us the exact number of bikes required per hour in order to reduce the waiting time.
+In this project, the dependent variable is ‘User Churned Or Not’, the prediction of which gives us the customers are likely to leave a service or cancel a subscription
 
 ![image](https://user-images.githubusercontent.com/92729412/194842399-829fe471-f014-425b-aeac-b0a69b926ca0.png)
 
