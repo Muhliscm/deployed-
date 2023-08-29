@@ -119,8 +119,10 @@ We might infer from the large rise in rental rates between 6:00 am to 8:00 am a
 
 <h2>Getting Started</h2>
 1. Raw Data is being kept here [Click Here](https://github.com/Muhliscm/dsProjects/blob/main/telecome_churn_prediction/churn_original.csv)  <br>
-2. Exploratory Data Analysis scripts are being kept [here](https://github.com/Muhliscm/dsProjects/blob/main/telecome_churn_prediction/credit_churn_EDA.ipynbhttps://github.com/Muhliscm/dsProjects/blob/main/telecome_churn_prediction/credit_churn_EDA.ipynb)<br>
-3. Machine learning model building scripts Kept [here](https://github.com/Muhliscm/dsProjects/blob/main/telecome_churn_prediction/Model_building.ipynb)<br>
+2. Exploratory Data Analysis scripts are being kept [here](https://github.com/Muhliscm/dsProjects/blob/main/telecome_churn_prediction/credit_churn_EDA.ipynbhttps://github.com/Muhliscm/dsProjects/blob/main/telecome_churn_prediction/credit_churn_EDA.ipynb)
+<br>
+3. Machine learning model building scripts Kept [here](https://github.com/Muhliscm/dsProjects/blob/main/telecome_churn_prediction/Model_building.ipynb)
+<br>
 
 
 <h2>💻 Algorithms used</h2>
@@ -167,7 +169,7 @@ n_estimators : 500
 
 All the models are evaluated on the basis of following evaluation metrics.
 
-![image](https://user-images.githubusercontent.com/92729412/194840929-6cfe7fcb-6422-41f0-9349-9ba80e9cfd03.png)
+![image](images/model_perfomance.png)
 
 <h2> :bulb: Conclusion</h2>
 
