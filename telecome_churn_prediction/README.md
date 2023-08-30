@@ -148,9 +148,12 @@ All the models are evaluated on the basis of the following evaluation metrics.
 
 This project focuses on predicting  customers are likely to leave a service or cancel a subscription
 
+* In eda we found that Independent people have more chance to churn. Especially single women.
+  
 * We Chose Logistic Regression as the best model for further improvements based on recall. Because our dataset was unbalanced.
 
-* Among all these models logistic regression gives us a recall score of 0.802 
+* Among all these models logistic regression gives us a recall score of 0.802
+
 
 * As a result of this project, telecom companies can better predict the churning customers and focus on methodologies to sustain them.
  
