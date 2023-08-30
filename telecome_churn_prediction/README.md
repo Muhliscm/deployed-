@@ -145,10 +145,10 @@ We might infer from the large rise in rental rates between 6:00 am to 8:00 am a
 
 * Logistic Regression:
   
-  C: 206.913808111479,
-  max_iter:100,
-  penalty: 'l2',
-  solver: 'newton-cg'
+  C: 206.913808111479 <br>
+  max_iter:100 <br>
+  penalty: 'l2'<br>
+  solver: 'newton-cg' <br>
 
 <h3> Model Comparison </h3>
 
