@@ -150,7 +150,7 @@ This project focuses on predicting  customers are likely to leave a service or c
 
 * We Chose Logistic Regression as the best model for further improvements based on recall. Because our dataset was unbalanced.
 
-* Among all these three models logistic regression gives us a recall score of 0.802 
+* Among all these models logistic regression gives us a recall score of 0.802 
 
 * As a result of this project, telecom companies can better predict the churning customers and focus on methodologies to sustain them.
  
@@ -162,7 +162,6 @@ This project focuses on predicting  customers are likely to leave a service or c
 MUHLIS CM | Data Scientist | Machine Learning Engineer 
 
 <p> <i> Contact me for Data Science Project Collaborations</i></p>
-
 
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhliscm/)
 [![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Muhliscm)
