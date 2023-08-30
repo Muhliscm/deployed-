@@ -127,75 +127,56 @@ We might infer from the large rise in rental rates between 6:00 am to 8:00 am a
 
 <h2>💻 Algorithms used</h2>
 
-* Linear Regression
+* Logistic Regression
 
+* Kernal-SVM
+
+* SVM
+  
 * Random Forest
+  
+* KNN
 
-* Gradient Boosting Machine
+* Decision Tree
 
-* XGBoost
+* Naive Bayes	
 
 <h3> Best Hyper-parameters </h3>
 
-* Random Forest:
-
-max_depth : 8
-
-min_samples_leaf : 40
-
-min_samples_split : 50
-
-n_estimators : 100
-
-* GBM:
-
-max_depth : 8
-
-min_samples_leaf : 40
-
-min_samples_split : 50
-
-n_estimators : 80
-
-* XGBoost:
-
-eval_metric : rmse
-
-max_depth : 6
-
-n_estimators : 500
+* Logistic Regression:
+  
+  C: 206.913808111479,
+  max_iter:100,
+  penalty: 'l2',
+  solver: 'newton-cg'
 
 <h3> Model Comparison </h3>
 
-All the models are evaluated on the basis of following evaluation metrics.
+All the models are evaluated on the basis of the following evaluation metrics.
 
 ![image](images/model_perfomance.png)
 
 <h2> :bulb: Conclusion</h2>
 
-This project focus on predicting the bike-sharing demand using Seoul Dataset.
+This project focuses on predicting  customers are likely to leave a service or cancel a subscription
 
-* In contrast to Linear Regression, the results demonstrate that XGBoost, Random Forest, and GBM algorithms performed well on the dataset.
+* We Chose Logistic Regression as the best model for further improvements based on recall. Because our dataset was unbalanced.
 
-* Among these three models, XGBoost is found to have better performance with least test-MAE(139.62) and highest test - R2 Score(87%). Therefore XGBoost algorithm can be used as an effective tool for Bike Sharing Demand Prediction.
+* Among all these three models logistic regression gives us a recall score of 0.802 
 
-* Analyzing feature importance showed that functioning day, temperature, and rainfall were the most influential variables in predicting the rental bike demand at each hour for all the models.
-
-* The intriguing relationship between the variables that can have an immediate impact on the dependent variable, "Rented Bike Count," is revealed by this project.
-
-* As a result of this project, bike-sharing companies can better predict the hourly demand for bikes and enhance the customer experience.
+* As a result of this project, telecom companies can better predict the churning customers and focus on methodologies to sustain them.
  
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <!-- CREDITS -->
 <h2 id="credits"> :scroll: Credits</h2>
 
-Nivya T | Avid Learner | Data Scientist | Machine Learning Engineer | Deep Learning Enthusiast
+MUHLIS CM | Data Scientist | Machine Learning Engineer 
 
 <p> <i> Contact me for Data Science Project Collaborations</i></p>
 
 
-[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nivyathiruvoth/)
-[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nivyathiruvoth)
-[![Medium Badge](https://img.shields.io/badge/Medium-1DA1F2?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@nivyathiruvoth)
-[![Resume Badge](https://img.shields.io/badge/resume-0077B5?style=for-the-badge&logo=resume&logoColor=white)](https://drive.google.com/file/d/1o5VojatmPA-amnQkOJ-xb6yIq_Jof8D2/view?usp=sharing)
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhliscm/)
+[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Muhliscm)
+
+
