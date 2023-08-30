@@ -97,13 +97,11 @@ The dataset contains the following information:
 
 In this project, the dependent variable is ‘User Churned Or Not’, the prediction of which gives us the customers are likely to leave a service or cancel a subscription
 
-![image](https://user-images.githubusercontent.com/92729412/194842399-829fe471-f014-425b-aeac-b0a69b926ca0.png)
+![image](images/churne_or_not.png)
+![image](images/unbalanced.png)
 
-It can be observed that the distribution of the dependent variable is skewed. So we applied log1p transformation.
 
-![image](https://user-images.githubusercontent.com/92729412/194842434-3478d962-e618-45d8-a88c-5726c735e169.png)
-
-We can observe that the features Temperature and Dew Point Temperature exhibit a high correlation. Therefore we will drop the column Dew Point temperature to prevent multicollinearity.
+We can observe that the dataset is unbalanced. So we have to focus on sampling to make each class in dependent variable to same ratio Or we can consider another matrix like recall to find the performance of the algorithms.
 
 ![image](https://user-images.githubusercontent.com/92729412/194842482-fd3c3d78-d67b-4a8f-834e-b4573cfc57bb.png)
 
@@ -111,85 +109,74 @@ VIF value is under 5. Therefore we assume that the multicollinearity between the
 
 ![image](https://user-images.githubusercontent.com/92729412/194842509-3ce4caaf-0077-4e03-956f-fdf74fc1fdf3.png)
 
-We can observe from the above chart that due to high snowfall and less temperature, the number of rented bike count is deficient in the winters compared to summer and spring. People use rental bikes primarily for short-distance travel like traveling to school or work. That's why the percentage of rented bike count is lesser on a holy day. Since bikes are rented only on a functioning day, there is no doubt why the percentage of rented bike count is zero on a non-functioning day.
+We can observe from the above chart that due to high snowfall and lower temperatures, the number of rented bike count is deficient in the winter compared to summer and spring. People use rental bikes primarily for short-distance travel like traveling to school or work. That's why the percentage of rented bikes count is lesser on a holy day. Since bikes are rented only on a functioning day, there is no doubt why the percentage of rented bikes count is zero on a non-functioning day.
 
 ![image](https://user-images.githubusercontent.com/92729412/194884056-e4d85ab6-84d6-46fc-9aef-02a781c0e8fe.png)
 
-We might infer from the large rise in rental rates between 6:00 am to 8:00 am and 10:00 am to 6:00 pm that there is very high demand during the opening and closing hours of offices.  There is a consistent increase in demand for rental bikes from 10:00 AM to 6:00 PM. The least popular time to rent a bicycle is in the early morning hours (1:00 AM to 6:00 AM).  Regardless,of the seasons, this has been the general trend noticed.
+We might infer from the large rise in rental rates between 6:00 am to 8:00 am and 10:00 am to 6:00 pm that there is very high demand during the opening and closing hours of offices.  There is a consistent increase in demand for rental bikes from 10:00 AM to 6:00 PM. The least popular time to rent a bicycle is in the early morning hours (1:00 AM to 6:00 AM).  Regardless, of the seasons, this has been the general trend noticed.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
+<h2>Getting Started</h2>
+1. Raw Data is being kept here [Click Here](https://github.com/Muhliscm/dsProjects/blob/main/telecome_churn_prediction/churn_original.csv)  <br>
+2. Exploratory Data Analysis scripts are being kept [here](https://github.com/Muhliscm/dsProjects/blob/main/telecome_churn_prediction/credit_churn_EDA.ipynbhttps://github.com/Muhliscm/dsProjects/blob/main/telecome_churn_prediction/credit_churn_EDA.ipynb)
+<br>
+3. Machine learning model building scripts Kept [here](https://github.com/Muhliscm/dsProjects/blob/main/telecome_churn_prediction/Model_building.ipynb)
+<br>
+
+
 <h2>💻 Algorithms used</h2>
 
-* Linear Regression
+* Logistic Regression
 
+* Kernal-SVM
+
+* SVM
+  
 * Random Forest
+  
+* KNN
 
-* Gradient Boosting Machine
+* Decision Tree
 
-* XGBoost
+* Naive Bayes	
 
 <h3> Best Hyper-parameters </h3>
 
-* Random Forest:
-
-max_depth : 8
-
-min_samples_leaf : 40
-
-min_samples_split : 50
-
-n_estimators : 100
-
-* GBM:
-
-max_depth : 8
-
-min_samples_leaf : 40
-
-min_samples_split : 50
-
-n_estimators : 80
-
-* XGBoost:
-
-eval_metric : rmse
-
-max_depth : 6
-
-n_estimators : 500
+* Logistic Regression:
+  
+  C: 206.913808111479 <br>
+  max_iter:100 <br>
+  penalty: 'l2'<br>
+  solver: 'newton-cg' <br>
 
 <h3> Model Comparison </h3>
 
-All the models are evaluated on the basis of following evaluation metrics.
+All the models are evaluated on the basis of the following evaluation metrics.
 
-![image](https://user-images.githubusercontent.com/92729412/194840929-6cfe7fcb-6422-41f0-9349-9ba80e9cfd03.png)
+![image](images/model_perfomance.png)
 
 <h2> :bulb: Conclusion</h2>
 
-This project focus on predicting the bike-sharing demand using Seoul Dataset.
+This project focuses on predicting  customers are likely to leave a service or cancel a subscription
 
-* In contrast to Linear Regression, the results demonstrate that XGBoost, Random Forest, and GBM algorithms performed well on the dataset.
+* We Chose Logistic Regression as the best model for further improvements based on recall. Because our dataset was unbalanced.
 
-* Among these three models, XGBoost is found to have better performance with least test-MAE(139.62) and highest test - R2 Score(87%). Therefore XGBoost algorithm can be used as an effective tool for Bike Sharing Demand Prediction.
+* Among all these three models logistic regression gives us a recall score of 0.802 
 
-* Analyzing feature importance showed that functioning day, temperature, and rainfall were the most influential variables in predicting the rental bike demand at each hour for all the models.
-
-* The intriguing relationship between the variables that can have an immediate impact on the dependent variable, "Rented Bike Count," is revealed by this project.
-
-* As a result of this project, bike-sharing companies can better predict the hourly demand for bikes and enhance the customer experience.
+* As a result of this project, telecom companies can better predict the churning customers and focus on methodologies to sustain them.
  
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <!-- CREDITS -->
 <h2 id="credits"> :scroll: Credits</h2>
 
-Nivya T | Avid Learner | Data Scientist | Machine Learning Engineer | Deep Learning Enthusiast
+MUHLIS CM | Data Scientist | Machine Learning Engineer 
 
 <p> <i> Contact me for Data Science Project Collaborations</i></p>
 
 
-[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nivyathiruvoth/)
-[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nivyathiruvoth)
-[![Medium Badge](https://img.shields.io/badge/Medium-1DA1F2?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@nivyathiruvoth)
-[![Resume Badge](https://img.shields.io/badge/resume-0077B5?style=for-the-badge&logo=resume&logoColor=white)](https://drive.google.com/file/d/1o5VojatmPA-amnQkOJ-xb6yIq_Jof8D2/view?usp=sharing)
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhliscm/)
+[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Muhliscm)
+
+
