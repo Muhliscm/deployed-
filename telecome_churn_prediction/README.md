@@ -1,6 +1,5 @@
 
 
-
 <h1 align="center"> Telecom Churn Prediction</h1>
 
 <p align="center"> 
