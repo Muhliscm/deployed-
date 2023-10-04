@@ -97,12 +97,25 @@ The dataset contains the following information:
 <h2>🛠️ Pre-processing </h2>
 
 In this project, the dependent variable is the ‘number of total rented bike count’, the prediction of which gives us how many bicycles will be needed or rented in the future
+### Correlation Matrix
+![image](images/corr_matrix.png)
+### Correlation of Target With other variables
+![image](images/correlation.png)
 
-![image](images/churne_or_not.png)
-![image](images/unbalanced.png)
+### VIF
+![image](images/Vif.png)
+
+### Linear Regression Feature Importance
+![image](images/lr_feature_imp.png)
+
+### Random Forest Regression Feature Importance
+![image](images/rf_feature_imp.png)
 
 
-We can observe that the dataset is unbalanced. So we have to focus on sampling to make each class in dependent variable to same ratio Or we can consider a matrix like recall to find the performance of the algorithms.
+
+
+
+
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
