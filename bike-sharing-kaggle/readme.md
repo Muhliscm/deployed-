@@ -1,7 +1,7 @@
 <h1 align="center"> Bicycle Demand Predictions</h1>
 
 <p align="center"> 
-<img src="images/Customer-exit.png" height="600px" width="900px">
+<img src="https://github.com/Muhliscm/dsProjects/blob/main/bike-sharing-kaggle/images/bike_sharing.jpg" height="600px" width="900px">
 </p>
 
 <p> </p>
