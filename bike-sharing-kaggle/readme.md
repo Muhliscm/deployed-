@@ -51,7 +51,8 @@ Bicycle demand prediction refers to the task of forecasting the future demand fo
 
 <h2> :book: Data Summary </h2>
 
-The data contained 7043 user details who used the service and some of them quit the service due to some issues.
+The training data contained 10,000 user details who used the service of the Capital Bikeshare program in Washington, D.C.
+Test data has 7379 user details
 
 The dataset contains the following information:
 
@@ -87,76 +88,58 @@ The dataset contains the following information:
 
 2. Treating numerical and categorical features separately, Encoding, etc.
 
-3. Train test split, Transformation, Scaling, etc.
+3. Train test split, Transformation, Scaling, Future Selection etc.
 
-4. Develop different models and evaluate them.
+4. Develop different models and evaluate them, Fine Tuning
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <h2>🛠️ Pre-processing </h2>
 
-In this project, the dependent variable is ‘User Churned Or Not’, the prediction of which gives us the customers are likely to leave a service or cancel a subscription
+In this project, the dependent variable is the ‘number of total rented bike count’, the prediction of which gives us how many bicycles will be needed or rented in the future
 
 ![image](images/churne_or_not.png)
 ![image](images/unbalanced.png)
 
 
-We can observe that the dataset is unbalanced. So we have to focus on sampling to make each class in dependent variable to same ratio Or we can consider matrix like recall to find the performance of the algorithms.
+We can observe that the dataset is unbalanced. So we have to focus on sampling to make each class in dependent variable to same ratio Or we can consider a matrix like recall to find the performance of the algorithms.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <h2>Getting Started</h2>
 
-1.[RawData](https://github.com/Muhliscm/dsProjects/blob/main/telecome_churn_prediction/Model_building.ipynb) <br>
-2.[Exploratory Data Analysis scripts](https://github.com/Muhliscm/dsProjects/blob/main/telecome_churn_prediction/credit_churn_EDA.ipynb)<br>
-3.[Machine learning model building scripts](https://github.com/Muhliscm/dsProjects/blob/main/telecome_churn_prediction/Model_building.ipynb)<br>
+1.[RawData](https://github.com/Muhliscm/dsProjects/tree/main/bike-sharing-kaggle/data) <br>
+2.[Exploratory Data Analysis scripts](https://github.com/Muhliscm/dsProjects/blob/main/bike-sharing-kaggle/EDA.ipynb)<br>
+3.[Machine learning model building scripts](https://github.com/Muhliscm/dsProjects/blob/main/bike-sharing-kaggle/Feature_engineering.ipynb)<br>
 
 
 <h2>💻 Algorithms used</h2>
 
-* Logistic Regression
+* Linear Regression
 
-* Kernal-SVM
+* Random Forest Regression
 
-* SVM
-  
-* Random Forest
-  
-* KNN
-
-* Decision Tree
-
-* Naive Bayes	
-
-
-
-<h3> Model Comparison </h3>
-
-All the models are evaluated on the basis of the following evaluation metrics.
-
-![image](images/model_perfomance.png)
 
 <h3> Best Hyper-parameters </h3>
 
-* Logistic Regression:
-  
-  C: 206.913808111479 <br>
-  max_iter:100 <br>
-  penalty: 'l2'<br>
-  solver: 'newton-cg' <br>
+* Random Forest Regression:
 
+ 'n_estimators': 50 <br>
+ 'min_samples_split': 150<br>
+ 'min_samples_leaf': 50<br>
+ 'max_depth': 8<br>
+  
 <h2> :bulb: Conclusion</h2>
 
-This project focuses on predicting  customers are likely to leave a service or cancel a subscription
+This project focuses on how many bicycles will be needed or rented in the future
 
-* In eda we found that Independent people have more chance to churn. Especially single women.
+* In eda we found that Data is not linear. So linear regression gives a very poor score. So we used no linear models  
  
-* We Chose Logistic Regression as the best model for further improvements based on recall. Because our dataset was unbalanced.
+* We Chose random forest regression as the best model for further improvements based on recall
 
-* Among all these models logistic regression gives us a recall score of 0.802
+* Among all these models random forest regression gives us a r2 score of 0.78
 
-
-* As a result of this project, telecom companies can better predict the churning customers and focus on methodologies to sustain them.
+*  Companies can use this prediction for their bike-sharing system optimization
  
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
