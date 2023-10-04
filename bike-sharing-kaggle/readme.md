@@ -25,8 +25,10 @@
 
 
 <h2> 📄 Introduction</h2>
+Bike-sharing systems are a means of renting bicycles where the process of obtaining membership, rental, and bike return is automated via a network of kiosk locations throughout a city. Using these systems, people can rent a bike from one location and return it to a different place on an as-needed basis. Currently, there are over 500 bike-sharing programs around the world.
 
-Customer churn prediction is the process of identifying which customers are likely to leave a service or cancel a subscription based on their usage of the service. It is crucial for many businesses because acquiring new clients is often more expensive than retaining existing ones. To predict churn effectively, companies need to synthesize and utilize key indicators defined by their team to signal when a customer has a probability of churning so that their company can take action.
+This project is a part of Kaggle bike demand prediction: https://www.kaggle.com/competitions/copy-of-sw5-mi-e23-bike-sharing
+
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -34,16 +36,16 @@ Customer churn prediction is the process of identifying which customers are like
 
 <h2> ❓ Problem Statement</h2>
 
-In This problem, we trying to solve churning in the telecom industry. Telecom companies face an average annual churn rate of 10-15%, which is significantly high due to the cost of acquiring new customers. To retain highly profitable customers, we use machine learning models to predict churn on an individual customer  basis and take countermeasures such as discounts, special offers, or other gratifications to keep the customers.
+Bicycle demand prediction refers to the task of forecasting the future demand for bicycles in a specific area or for a particular period. It involves using historical data and various factors or features that can influence bicycle usage to make predictions about how many bicycles will be needed or rented in the future. This prediction can be valuable for various purposes, such as urban planning, transportation management, bike-sharing system optimization, and more.
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <h2> 🎯 Objectives: </h2>
 
-1. Building a predictive model to find and retain customers at the highest risk of churn
+1. Make predictions about how many bicycles will be needed or rented in the future
 
-2. Gathering information regarding the factors that affect this prediction the most.
+2. Using historical data and various factors or features that can influence bicycle usage
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
