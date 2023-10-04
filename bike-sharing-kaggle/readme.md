@@ -55,27 +55,28 @@ The data contained 7043 user details who used the service and some of them quit 
 
 The dataset contains the following information:
 
-* **customerID**
-* **gender** - Male/Female
-* **SeniorCitizen** - Is Senior Citizen Or Not
-* **Partner** - Have partner or Not
-* **Dependents** - Have Dependents or Not
-* **tenure** - Tenure in months
-* **PhoneService** - Have phone service or not
-* **MultipleLines** - Do they have multiple lines or no phone at all
-* **InternetService** - Internet service type like optic fiber..etc
-* **OnlineSecurity** - Have online Security or Not
-* **OnlineBackup** - Have an online backup or not
-* **DeviceProtection** - Have device protection or not
-* **TechSupport** - Do they get support from the company side
-* **StreamingTV** - Use Streaming Tv
-* 	**StreamingMovies** - Do they watch movies online
-* 	**Contract** - package type - Monthly/yearly
-* 	**PaperlessBilling** - Online or offline payment
-* 	**PaymentMethod** - What kind of payment service they use
-* 	**MonthlyCharges** - Subscribed monthly package amount
-* 	**TotalCharges** - Total Amount spent by customer till this date
-* 	**Churn** - Customer churned or Not (Target variable)
+* **Id**	
+* **datetime** - date
+* **yr**	- 0 for 2011, 1 for 2012
+* **mnth**	- month - 1-12
+* **hr**	- hour -0-23
+* **season**	- 1 = spring, 2 = summer, 3 = fall, 4 = winter
+* **holiday**	- whether the day is considered a holiday
+* **weekday**	- whether the day is neither a weekend nor a holiday
+* **workingday**
+* **weathersit**<br>
+  weather -
+  1: Clear, Few clouds, Partly cloudy, Partly cloudy
+  2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
+  3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
+  4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog
+* **temp**	 - temperature in Celsius
+* **atemp**	- "feels like" temperature in Celsius
+* **hum**	- relative humidity
+* **windspeed**	
+* **count** - number of total rentals (Feature to be predicted)
+
+
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
