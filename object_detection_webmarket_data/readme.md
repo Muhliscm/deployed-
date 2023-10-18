@@ -86,7 +86,15 @@ The csv contains the following information:
 
 <h2> :bulb: Conclusion</h2>
 
-This project help to detect object in a shelf
+### Loss
+![image](results.png)
+
+
+### Validation image sample
+![image](val_batch1_pred.jpg)
+
+
+This project helped to detect objects on a shelf
 
 
  
