@@ -75,7 +75,7 @@ The csv contains the following information:
 <h2>Getting Started</h2>
 
 1.[RawData](https://www.kaggle.com/datasets/manikchitralwar/webmarket-dataset?rvi=1) <br>
-2.[Data Preparation Script](https://github.com/Muhliscm/dsProjects/blob/main/object_detection_webmarket_data/data_set_creation.ipynb)<br>
+2.[Data Preparation Script](https://colab.research.google.com/drive/1TsE7H__MQArYESFSmQ60GJtpcrWfRiv_#scrollTo=lYffMXrd6Uz3)<br>
 3.[model building scripts](https://github.com/Muhliscm/dsProjects/blob/main/object_detection_webmarket_data/Model_building.ipynb)<br>
 
 
