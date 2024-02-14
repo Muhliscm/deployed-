@@ -1,5 +1,7 @@
 <h1 align="center"> Entity Extraction Using Transformers</h1>
 
+
+
 <p align="center"> 
 <img src="ner.jpg" height="600px" width="900px">
 </p>
