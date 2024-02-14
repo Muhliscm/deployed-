@@ -50,7 +50,7 @@ The dataset contains the following information:
 * **Tokens**	
 * **NER Tags**
   - B - Beginning of a tag
-  - I - Inside of a tag
+  - I - Inside of a tag (Eg: Two words are part of the same group like name: Don Bos)
     
   - O - Others
   - B-PER - Person tag
