@@ -83,16 +83,16 @@ The dataset contains the following information:
 <h2>🛠️ Pre-processing </h2>
 
 <p align="center"> 
-<img src="1.jpg" height="600px" width="900px">
+<img src="1.png" height="600px" width="900px">
 </p>
 
 <p align="center"> 
-<img src="2.jpg" height="600px" width="900px">
+<img src="2.png" height="600px" width="900px">
 </p>
 
 
 <p align="center"> 
-<img src="3.jpg" height="600px" width="900px">
+<img src="3.png" height="600px" width="900px">
 </p>
 
 
