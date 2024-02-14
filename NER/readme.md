@@ -81,19 +81,13 @@ The dataset contains the following information:
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <h2>🛠️ Pre-processing </h2>
+ 
+<img src="1.png" height="700px" width="1200px">
 
-<p align="center"> 
-<img src="1.png" height="600px" width="900px">
-</p>
+<img src="2.png" height="700px" width="1200px">
 
-<p align="center"> 
-<img src="2.png" height="600px" width="900px">
-</p>
+<img src="3.png" height="700px" width="1200px">
 
-
-<p align="center"> 
-<img src="3.png" height="600px" width="900px">
-</p>
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
