@@ -6,3 +6,6 @@ Data science end to end to projects
 4. Telecom Churn Predictions
 5. Bike Demand Forecasting
 6. Object detection using yolo v8 on web market data
+7. Named Entity Recognition Using BERT
+8. Restaurant Name Generator using LLM - Open AI
+9. Database question answer Bot using Langchain and LLM(Google Palm)
