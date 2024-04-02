@@ -100,7 +100,7 @@ In this project, the dependent variable is ‘User Churned Or Not’, the predic
 ![image](images/unbalanced.png)
 
 
-We can observe that the dataset is unbalanced. So we have to focus on sampling to make each class in dependent variable to same ratio Or we can consider matrix like recall to find the performance of the algorithms.
+We can observe that the dataset is unbalanced. So SMOTENN is used for sampling
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -108,7 +108,7 @@ We can observe that the dataset is unbalanced. So we have to focus on sampling t
 
 1.[RawData](https://github.com/Muhliscm/dsProjects/blob/main/telecome_churn_prediction/Model_building.ipynb) <br>
 2.[Exploratory Data Analysis scripts](https://github.com/Muhliscm/dsProjects/blob/main/telecome_churn_prediction/credit_churn_EDA.ipynb)<br>
-3.[Machine learning model building scripts](https://github.com/Muhliscm/dsProjects/blob/main/telecome_churn_prediction/Model_building.ipynb)<br>
+3.[Machine learning model building scripts](https://github.com/Muhliscm/dsProjects/blob/main/telecome_churn_prediction/01_Model_building.ipynb)<br>
 
 
 <h2>💻 Algorithms used</h2>
@@ -137,14 +137,15 @@ All the models are evaluated on the basis of the following evaluation metrics.
 
 <h3> Best Hyper-parameters </h3>
 
-* Logistic Regression:
-  
-  C: 206.913808111479 <br>
-  max_iter:100 <br>
-  penalty: 'l2'<br>
-  solver: 'newton-cg' <br>
+* Random forest classifier:
 
-<h2> :bulb: Conclusion</h2>
+ - 'max_depth': 6, 
+ - 'max_features': None
+ - 'max_leaf_nodes': 9
+ - 'n_estimators': 150
+  
+
+<h2>:bulb: Conclusion</h2>
 
 This project focuses on predicting  customers are likely to leave a service or cancel a subscription
 
@@ -152,7 +153,7 @@ This project focuses on predicting  customers are likely to leave a service or c
  
 * We Chose Logistic Regression as the best model for further improvements based on recall. Because our dataset was unbalanced.
 
-* Among all these models logistic regression gives us a recall score of 0.802
+* Among all these models Random forest gives us a accuracy score of 91%
 
 
 * As a result of this project, telecom companies can better predict the churning customers and focus on methodologies to sustain them.
