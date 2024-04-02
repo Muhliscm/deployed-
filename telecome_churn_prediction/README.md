@@ -149,9 +149,9 @@ All the models are evaluated on the basis of the following evaluation metrics.
 
 This project focuses on predicting  customers are likely to leave a service or cancel a subscription
 
-* In eda we found that Independent people have more chance to churn. Especially single women.
+* In eda we found that Independent people have more chance to churn. Especially single women and customers who
+don't get enough support also have a high chance to churn
  
-* We Chose Logistic Regression as the best model for further improvements based on recall. Because our dataset was unbalanced.
 
 * Among all these models Random forest gives us a accuracy score of 91%
 
