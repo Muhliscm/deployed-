@@ -14,7 +14,7 @@ from dotenv import load_dotenv
 
 # Load environment variables from .env file
 load_dotenv()
-google_api_key = os.environ["GOOGLE_API_KEY"]
+google_api_key = os.getenv("GOOGLE_API_KEY")
 
 
 def few_shot_query_selector():
@@ -33,7 +33,8 @@ def few_shot_query_selector():
         to_vectorize, embedding=embeddings, metadatas=few_shots
     )
 
-    example_selector = SemanticSimilarityExampleSelector(vectorstore=vector_stores, k=2)
+    example_selector = SemanticSimilarityExampleSelector(
+        vectorstore=vector_stores, k=2)
     example_prompt = PromptTemplate(
         input_variables=[
             "Question",
@@ -49,7 +50,8 @@ def few_shot_query_selector():
         example_selector=example_selector,
         suffix=PROMPT_SUFFIX,
         prefix=_mysql_prompt,
-        input_variables=["input", "table_info", "top_k"],  # for suffix and prefix
+        input_variables=["input", "table_info",
+                         "top_k"],  # for suffix and prefix
     )
     db_chain = SQLDatabaseChain.from_llm(
         llm=llm, db=db, verbose=True, prompt=few_shot_prompt

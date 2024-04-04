@@ -1,7 +1,5 @@
 <h1 align="center"> Data Base Chat Bot</h1>
 
-
-
 <p align="center"> 
 <img src="src/images/chatbot.svg" height="600px" width="900px">
 </p>
